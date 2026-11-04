@@ -1,0 +1,9 @@
+A Adaga e o Livro — teste de entrega
+
+Este arquivo foi publicado para verificar o download pelo navegador.
+Ele não contém código do jogo, ROM ou assets.
+
+Código de confirmação: ADAGA-LIVRO-001
+
+Se você conseguiu baixar este arquivo no Windows e ler o código acima,
+o recebimento de arquivos pelo repositório GitHub funcionou neste teste.
