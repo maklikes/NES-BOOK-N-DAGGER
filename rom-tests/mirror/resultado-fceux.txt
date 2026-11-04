@@ -1,0 +1,40 @@
+PASS Initial position and puzzle state
+PASS Far interaction feedback
+PASS B closes dialogue
+PASS Desk blocks movement
+PASS Examine desk without changing puzzle
+PASS Bottom and right room bounds
+PASS Wardrobe collision
+PASS Pause and Start hold do not move or retrigger
+PASS No interaction while paused
+PASS Select repositions
+PASS Top bound and wardrobe side collision
+PASS Reach wardrobe via open path
+PASS Open wardrobe menu
+PASS Menu freezes movement
+PASS Door locked before clue and latch
+PASS Open wardrobe menu
+PASS Drawer blocked before mirror clue
+PASS Open wardrobe menu
+PASS Cancel menu does not advance puzzle
+PASS Open wardrobe menu
+PASS Mirror clue and no repeated held-A activation
+PASS Open wardrobe menu
+PASS Clue alone does not open door
+PASS Open wardrobe menu
+PASS Drawer releases hidden latch
+PASS Open wardrobe menu
+PASS Repeated drawer inspection is idempotent
+PASS Open wardrobe menu
+PASS Door opens after latch
+PASS Open wardrobe graphics uploaded
+PASS Objects collected only on a separate interaction
+PASS Empty wardrobe graphics uploaded
+PASS Inventory HUD shows both objects
+PASS Cannot collect twice
+PASS Select preserves collected objects during pause
+PASS All measured PPU jobs fit VBlank: 1890 cycles
+PASS Reset starts a new puzzle
+PASS Reset restores closed wardrobe
+PASS Reset clears inventory
+TOTAL 39 checks passed

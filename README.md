@@ -1,5 +1,31 @@
 # A Adaga e o Livro — testes técnicos de NES
 
+## Novo: interação e puzzle do espelho
+
+ROM: [`downloads/espelho-v0.1.nes`](downloads/espelho-v0.1.nes).
+Abra o arquivo e use **Download raw file**, depois **File → Open** no MesenCE.
+
+![Puzzle no FCEUX](rom-tests/mirror/espelho.png)
+
+- Direcionais: movimentar a personagem; perto do armário, A abre a inspeção.
+- No menu do armário: Cima/Baixo escolhem o objeto, A examina e B cancela.
+- Durante uma leitura: A ou B fecham o texto. Segurar A não avança várias etapas.
+- Start: pausa/despausa. Select: reposiciona sem apagar o progresso do puzzle.
+- No seu mapeamento: **K = A/examinar**, **J = B/voltar**, W/S navegam no menu.
+- A e B agora são interação/voltar; não mudam mais a cor da roupa nesta ROM.
+
+Explore o espelho, a gaveta e a porta. As respostas dependem das descobertas.
+Abrir o compartimento mostra os objetos; recolhê-los exige uma nova interação.
+O topo da tela registra os objetos coletados. Select preserva o progresso;
+**Reset do emulador começa uma nova tentativa**, sem inventário ou descobertas.
+
+Esta versão termina na coleta do livro e da adaga. Não há uso de poderes,
+passagem para outra sala, combate, áudio ou salvamento permanente ainda.
+A fonte atual usa texto em português sem acentos. A arte continua provisória.
+
+Código e verificação: [`rom-tests/mirror`](rom-tests/mirror).
+Compilação: `make -C rom-tests/mirror`, com ca65/ld65 no PATH.
+
 ## Novo: sala com personagem e controles
 
 ROM: [`downloads/sala-controles-v0.1.nes`](downloads/sala-controles-v0.1.nes).
