@@ -1,0 +1,21 @@
+-- Environment validation only: capture the real emulator framebuffer.
+local output = assert(os.getenv('NES_SOLID_OUTPUT'), 'NES_SOLID_OUTPUT missing')
+local report = assert(io.open(output .. '/emulator.txt', 'w'))
+emu.speedmode('normal')
+local function capture(name)
+    for frame = 1, 240 do emu.frameadvance() end
+    assert(ppu.readbyte(0x3f00) == 1, 'Backdrop is not palette index $01')
+    local pc = memory.getregister('pc')
+    assert(memory.readbyte(pc) == 0x4c, 'CPU is not in its idle JMP')
+    assert(memory.readword(pc + 1) == pc, 'Idle JMP is not self-referencing')
+    local image = assert(io.open(output .. '/' .. name .. '.gd', 'wb'))
+    image:write(gui.gdscreenshot())
+    image:close()
+    report:write(name .. ': backdrop=$01, stable CPU idle loop, frame=' .. emu.framecount() .. '\n')
+    report:flush()
+end
+capture('cold-boot')
+emu.softreset()
+capture('reset')
+report:close()
+emu.exit()
