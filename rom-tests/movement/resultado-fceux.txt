@@ -1,0 +1,44 @@
+PASS Initial position
+PASS Character OAM tiles
+PASS Desk tile in nametable
+PASS A controller bit
+PASS A HUD pressed
+PASS A release
+PASS B controller bit
+PASS B HUD pressed
+PASS B release
+PASS select controller bit
+PASS select HUD pressed
+PASS select release
+PASS start controller bit
+PASS start HUD pressed
+PASS start release
+PASS up controller bit
+PASS up HUD pressed
+PASS up release
+PASS down controller bit
+PASS down HUD pressed
+PASS down release
+PASS left controller bit
+PASS left HUD pressed
+PASS left release
+PASS right controller bit
+PASS right HUD pressed
+PASS right release
+PASS Start toggled pause
+PASS Start unpauses
+PASS Desk blocks horizontal motion
+PASS Bottom room bound
+PASS Right room bound and path around desk
+PASS Top room bound
+PASS Left room bound
+PASS Opposite directions cancel
+PASS Holding Start toggles once and freezes movement
+PASS Select resets while paused
+PASS A sprite palette
+PASS B sprite palette
+PASS A takes precedence over B
+PASS Default sprite palette restored
+PASS PPU writes fit NTSC VBlank: 1626 CPU cycles
+PASS Reset reinitializes scene
+TOTAL 43 checks passed

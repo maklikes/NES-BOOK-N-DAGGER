@@ -1,4 +1,43 @@
-# A Adaga e o Livro — primeiro teste de ROM
+# A Adaga e o Livro — testes técnicos de NES
+
+## Novo: sala com personagem e controles
+
+ROM: [`downloads/sala-controles-v0.1.nes`](downloads/sala-controles-v0.1.nes).
+Abra o arquivo no GitHub e clique em **Download raw file** para baixar.
+No MesenCE, use **File → Open** e selecione o `.nes`.
+
+![Sala real capturada no FCEUX](rom-tests/movement/sala.png)
+
+| Controle | Resposta esperada |
+| --- | --- |
+| Direcionais | Movem o personagem nas quatro direções. Paredes e mesa bloqueiam o movimento. |
+| A, segurado | Muda a cor do casaco para violeta. |
+| B, segurado | Muda a cor do casaco para dourado. A tem prioridade se ambos estiverem pressionados. |
+| Select | Reposiciona o personagem no ponto inicial, inclusive durante a pausa. |
+| Start | Alterna pausa. Segurar não alterna repetidamente. Um P aparece no topo. |
+
+As legendas **A B SEL STA UP DN LT RT** mostram `1` quando cada botão está
+pressionado e `0` quando está solto. Durante a pausa, o movimento para, mas
+os indicadores e as mudanças de cor continuam funcionando.
+
+Esta sala é um ensaio de movimentação livre nas quatro direções; não fecha
+a perspectiva do jogo definitivo. Não há áudio, combate, puzzles, troca de
+salas ou salvamento. Os gráficos foram desenhados para este teste, com tiles
+e sprites nativos do NES; não são a arte final do jogo.
+
+- Mapper 0, 16 KiB PRG + 8 KiB CHR, 24.592 bytes, alvo NTSC.
+- 43 verificações automatizadas passaram no FCEUX 2.6.5.
+- Código e validação: [`rom-tests/movement`](rom-tests/movement).
+- Ainda não validada no MesenCE do usuário, NES físico ou Phantom System.
+
+Compilar no ambiente preparado:
+
+```sh
+export PATH=/workspace/nes-tools/cc65/bin:$PATH
+make -C rom-tests/movement
+```
+
+## Anterior: tela azul
 
 Este repositório contém um teste técnico nativo de NES. Ainda não é o piloto
 do jogo e não contém os cenários, personagens ou mecânicas planejados.
