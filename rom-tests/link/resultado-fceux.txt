@@ -1,0 +1,72 @@
+PASS Initial position and puzzle state
+PASS Far interaction feedback
+PASS B closes dialogue
+PASS Desk blocks movement
+PASS Examine desk without changing puzzle
+PASS Bottom and right room bounds
+PASS Wardrobe collision
+PASS Pause and Start hold do not move or retrigger
+PASS No interaction while paused
+PASS Select repositions
+PASS Top bound and wardrobe side collision
+PASS Reach wardrobe via open path
+PASS Open wardrobe menu
+PASS Menu freezes movement
+PASS Door locked before clue and latch
+PASS Open wardrobe menu
+PASS Drawer blocked before mirror clue
+PASS Open wardrobe menu
+PASS Cancel menu does not advance puzzle
+PASS Open wardrobe menu
+PASS Mirror clue and no repeated held-A activation
+PASS Open wardrobe menu
+PASS Clue alone does not open door
+PASS Open wardrobe menu
+PASS Drawer releases hidden latch
+PASS Open wardrobe menu
+PASS Repeated drawer inspection is idempotent
+PASS Open wardrobe menu
+PASS Door opens after latch
+PASS Open wardrobe graphics uploaded
+PASS Objects collected only on a separate interaction
+PASS Empty wardrobe graphics uploaded
+PASS Inventory HUD shows both objects
+PASS Passage offered without recollecting objects
+PASS Select preserves collected objects during pause
+PASS Bedroom PPU jobs fit VBlank: 1929 cycles
+PASS B opens inventory
+PASS Book in bedroom does not reveal a distant room
+PASS Passage requires confirmation
+PASS Cancel passage stays in bedroom
+PASS Enter room 2 with items
+PASS Gate initially closed
+PASS Tether initially hidden
+PASS Dagger cannot cut hidden link
+PASS Closed gate blocks movement
+PASS Cannot finish before cutting
+PASS Select stays in current room with inventory
+PASS Book reveals the link
+PASS Revealed tether rendered
+PASS Tether update does not overwrite gate
+PASS Repeated reveal preserves link
+PASS Dagger out of range cannot cut
+PASS Return to bedroom preserves inventory and revealed link
+PASS Bedroom restores empty wardrobe
+PASS Reenter restores revealed link
+PASS Approach link without crossing gate
+PASS Pause prevents item use
+PASS Dagger cuts revealed link within reach
+PASS Cut tether disappears
+PASS Gate switches to open graphics
+PASS Repeated cutting is idempotent
+PASS Open gate no longer blocks movement
+PASS Open passage reaches test ending
+PASS Book cannot recreate a cut link
+PASS Return preserves completed state
+PASS Reenter restores open gate
+PASS Four measured scene loads upload exactly 1024 bytes each
+PASS Room 2 PPU jobs fit VBlank: 1933 cycles
+PASS Reset starts a new puzzle and clears room/link/completion
+PASS Reset restores closed wardrobe
+PASS Reset clears inventory
+TOTAL 71 checks passed

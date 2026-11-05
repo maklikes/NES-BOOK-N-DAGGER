@@ -1,5 +1,31 @@
 # A Adaga e o Livro — testes técnicos de NES
 
+## Novo: segunda sala e primeiro uso dos objetos
+
+ROM: [`downloads/vinculo-v0.1.nes`](downloads/vinculo-v0.1.nes).
+Use **Download raw file** e abra no MesenCE em NTSC.
+
+![Vínculo revelado no FCEUX](rom-tests/link/vinculo.png)
+
+1. Resolva o puzzle do espelho e recolha livro e adaga, como na ROM anterior.
+2. Examine novamente o armário: **A confirma entrar na passagem; B cancela**.
+3. Na antecâmara, **B abre os objetos**. Cima/Baixo escolhem livro ou adaga;
+   A usa o objeto e B volta. O livro revela o vínculo; a adaga precisa de alcance.
+4. A porta da esquerda permite voltar ao quarto, usando A próximo dela.
+5. Depois de liberar a porta da direita, aproxime-se e examine-a para concluir
+   este teste. Não há terceira sala nesta versão.
+
+No teclado configurado pelo usuário: **K = A**, **J = B**, **W/S = Cima/Baixo**.
+Start pausa; Select reposiciona na sala atual, preservando todos os estados.
+Reset reinicia o teste inteiro. Não há salvamento permanente.
+
+O vínculo e a porta mudam de aparência conforme o uso dos objetos. Revelar,
+cortar e concluir são estados distintos. As descobertas, o inventário e o
+vínculo persistem ao ir e voltar entre as salas. Não há combate ou áudio ainda.
+
+Código e relatório: [`rom-tests/link`](rom-tests/link). As ROMs anteriores
+continuam disponíveis e não foram alteradas.
+
 ## Novo: interação e puzzle do espelho
 
 ROM: [`downloads/espelho-v0.1.nes`](downloads/espelho-v0.1.nes).
