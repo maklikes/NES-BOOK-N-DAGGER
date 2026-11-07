@@ -1,4 +1,66 @@
-# A Adaga e o Livro — testes técnicos de NES
+# A Adaga e o Livro
+
+## Atual: primeira pescaria — v0.1
+
+Uma nova abertura, séculos antes da mansão: um jovem ajuda a mãe e vai buscar
+dois peixes para o jantar. Esta ROM começa o recorte de aventura de ação no
+mundo antigo; os testes da mansão permanecem como histórico técnico.
+
+**ROM:** [`downloads/primeira-pescaria-v0.1.nes`](downloads/primeira-pescaria-v0.1.nes).
+Abra o arquivo no GitHub, clique em **Download raw file** e abra no MesenCE
+com **File → Open**, preferencialmente em NTSC.
+
+![Riacho, captura real do FCEUX](game/first-river/riacho.png)
+
+### Jogar
+
+- Direcionais: caminhar e interromper a pesca.
+- A: conversar, examinar e começar a pescar junto ao brilho na água.
+- B: fechar uma leitura ou recolher a linha.
+- Start: pausa a exploração, a pesca e a mudança de pontos; a música continua.
+- Select: sem ação nesta versão.
+
+No teclado configurado pelo usuário: **WASD** movem, **K = A**, **J = B** e
+**I = Start**. O teclado é configurado no emulador, não na ROM.
+
+Feche o pedido da mãe com A ou B e saia pela porta inferior da cabana. Siga
+a trilha à direita até o riacho. Aproxime-se do brilho na margem e aperte A
+uma vez: as capturas continuam automaticamente. O ponto muda de lugar com
+o tempo. Se ele desaparecer, encontre o novo brilho e lance a linha novamente.
+
+A bolsa comporta **seis peixes**. Volte pelo caminho, entre na cabana pela
+entrada ao norte e fale com a mãe. Ela recebe **dois peixes uma única vez**;
+os demais ficam com você. O cesto à esquerda guarda os excedentes e libera
+a bolsa. Depois do jantar é possível continuar pescando e armazenando.
+
+O HUD mostra `PEIXES`, `CESTO` e `J:0/2` (peixes entregues para o jantar).
+Após a entrega, ele passa para `J:2/2`. O cesto guarda até 999 peixes;
+se atingir o limite, o excesso permanece na bolsa.
+
+Há três telas conectadas: cabana, caminho e riacho, um pescador orc com falas
+curtas, água animada, caminhada e pose de pesca. Inclui uma primeira trilha
+original curta e efeitos de lançamento, captura e interação, nos canais
+padrão do NES. Toda atividade ocorre no mapa, sem cenas dedicadas.
+
+**Reset começa uma nova partida. Não há salvamento permanente**, combate,
+classes, XP, lojas, outras profissões ou ciclo de dia/noite. Arte e música são
+a primeira proposta audiovisual deste recorte e ainda serão refinadas.
+
+### Código e validação
+
+Fonte: [`game/first-river`](game/first-river).
+Compilação: `make -C game/first-river`, com ca65/ld65 do cc65 no PATH.
+Relatório: [`game/first-river/VALIDACAO.md`](game/first-river/VALIDACAO.md).
+Checksums: [`downloads/SHA256SUMS.txt`](downloads/SHA256SUMS.txt).
+
+Formato NROM-256, mapper 0, 32 KiB PRG + 8 KiB CHR, 40.976 bytes.
+Validada no FCEUX; o novo recorte ainda precisa do teste do usuário no
+MesenCE e de validação em NES/EverDrive e Phantom System.
+
+## Histórico de protótipos anteriores
+
+As versões abaixo pertencem à investigação técnica anterior e continuam
+disponíveis. Não representam a história ou a direção atual do novo jogo.
 
 ## Novo: segunda sala e primeiro uso dos objetos
 

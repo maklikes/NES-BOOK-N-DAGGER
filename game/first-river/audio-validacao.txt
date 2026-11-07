@@ -1,0 +1,4 @@
+PCM SDL disk driver: 1005568 samples, 16-bit little-endian
+RMS: 4836.89; peak: 11831; distinct values: 19149
+Native NES audio is non-silent and has no full-scale clipping in this capture.
+Disk-driver output is for signal validation, not a measure of real sound-device latency.

@@ -1,0 +1,43 @@
+PASS Start in cabin with mother request and empty inventory
+PASS Holding A dismisses only one dialogue
+PASS Opposite directions cancel
+PASS Select has no gameplay action
+PASS Mother does not consume insufficient fish
+PASS Empty basket feedback
+PASS Cabin exit leads to path
+PASS Talk to orc fisherman
+PASS Short second conversation suggests world history
+PASS Path exit leads to river
+PASS Cannot fish far from active point
+PASS River water blocks walking
+PASS Cast begins timed automatic fishing
+PASS Holding Start pauses once with visible indicator
+PASS Pause freezes captures and point movement
+PASS Music continues while paused
+PASS Unpause
+PASS B interrupts fishing
+PASS Directional input interrupts fishing
+PASS Two automatic captures without repeating A
+PASS Point has a finite lifetime
+PASS Cast before point moves
+PASS Point relocation interrupts line without losing fish
+PASS Marker follows active location
+PASS Six fish fill the bag and stop collection
+PASS Full bag cannot overfill
+PASS Water animation changes palette
+PASS Return trip preserves fish
+PASS Dinner consumes exactly two fish, once
+PASS Completed dinner cannot consume fish again
+PASS Basket stores every remaining fish
+PASS HUD shows inventory, storage and completed dinner
+PASS Repeated basket interaction does not duplicate fish
+PASS World progress persists through both transitions
+PASS Can continue fishing after quest completion
+PASS Mother still preserves surplus after another trip
+PASS Storage accumulates across repeated fishing trips
+PASS Melody advances on native APU
+PASS Catch, interaction and casting effects reach native noise channel
+PASS PPU incremental writes fit VBlank: 1194 cycles
+PASS Scene transfers are complete 1 KiB uploads with rendering disabled
+PASS Reset starts a new session without saved progress
+TOTAL 42 checks passed
