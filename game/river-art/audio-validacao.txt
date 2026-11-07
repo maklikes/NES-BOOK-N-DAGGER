@@ -1,0 +1,4 @@
+Saída SDL de áudio NES: 1003008 amostras PCM 16-bit little-endian.
+RMS 4818.45; pico 10991; valores distintos 19098.
+Sinal musical não silencioso, sem clipping em escala cheia neste trecho.
+A captura valida sinal e não mede latência de um dispositivo físico.

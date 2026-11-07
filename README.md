@@ -1,6 +1,36 @@
 # A Adaga e o Livro
 
-## Atual: primeira pescaria — v0.1
+## Estudo de arte — pescaria v0.2
+
+**ROM para comparar:** [`downloads/primeira-pescaria-arte-v0.2.nes`](downloads/primeira-pescaria-arte-v0.2.nes).
+Use **Download raw file** e abra no MesenCE em NTSC. Os controles e a sequência
+da pesca são os mesmos da v0.1 aprovada.
+
+- Interior claro, paredes brancas, piso de madeira clara, tapete azul e móveis
+  redesenhados, retirando o vermelho dominante.
+- Fachada com telhado e janelas, caminhos menos regulares, árvores com sombras,
+  flores, margem arenosa e água azul-ciano.
+- Herói com frente, costas e perfil, passadas alternadas, cores distintas para
+  cabeça e roupa e pose de pesca. Mãe e orc também foram redesenhados.
+- Mapper 0/NROM preservado, agora com CHR RAM e um conjunto de fundo por área.
+
+![Cenários v0.1 e v0.2 lado a lado](game/river-art/comparacao-cenarios.png)
+
+![Movimento nas duas versões](game/river-art/comparacao-movimento.gif)
+
+As imagens vêm de frames reais do FCEUX. O GIF tem recorte e duração de quadros
+ajustados para facilitar a inspeção; avalie a fluidez real na ROM.
+
+Referências pesquisadas: **Crystalis, Willow, StarTropics, Kirby’s Adventure e
+Little Samson**. As decisões e fontes estão em
+[`game/river-art/ART_DIRECTION.md`](game/river-art/ART_DIRECTION.md).
+Relatório técnico: [`game/river-art/VALIDACAO.md`](game/river-art/VALIDACAO.md).
+Fonte/build: `game/river-art`; compilação `make -C game/river-art` com cc65 no PATH.
+
+Esta é uma proposta de padrão visual para avaliação, ainda não uma direção
+artística aprovada. A v0.1 permanece intacta para comparação.
+
+## Primeira pescaria — v0.1 original
 
 Uma nova abertura, séculos antes da mansão: um jovem ajuda a mãe e vai buscar
 dois peixes para o jantar. Esta ROM começa o recorte de aventura de ação no

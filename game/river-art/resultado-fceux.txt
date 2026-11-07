@@ -1,0 +1,54 @@
+PASS Start in cabin with mother request and empty inventory
+PASS Holding A dismisses only one dialogue
+PASS Common sprite patterns loaded exactly into CHR RAM
+PASS CHR RAM exactly matches background 0
+PASS Side walk cycles through both strides and neutral pose
+PASS Right-facing profile is used while idle
+PASS Head and torso use distinct sprite palettes
+PASS Left profile mirrors pixels and swaps tile columns
+PASS Moving north uses back-facing sprite
+PASS Moving south uses front-facing sprite
+PASS Opposite directions cancel
+PASS Select has no gameplay action
+PASS Mother does not consume insufficient fish
+PASS Empty basket feedback
+PASS Cabin exit leads to path
+PASS Talk to orc fisherman
+PASS Short second conversation suggests world history
+PASS CHR RAM exactly matches background 1
+PASS Path exit leads to river
+PASS Cannot fish far from active point
+PASS River water blocks walking
+PASS Cast begins timed automatic fishing
+PASS Holding Start pauses once with visible indicator
+PASS Pause freezes captures and point movement
+PASS Music continues while paused
+PASS Unpause
+PASS B interrupts fishing
+PASS Directional input interrupts fishing
+PASS CHR RAM exactly matches background 2
+PASS Two automatic captures without repeating A
+PASS Point has a finite lifetime
+PASS Cast before point moves
+PASS Point relocation interrupts line without losing fish
+PASS Marker follows active location
+PASS Six fish fill the bag and stop collection
+PASS Full bag cannot overfill
+PASS Water animation changes palette
+PASS Return trip preserves fish
+PASS Dinner consumes exactly two fish, once
+PASS Completed dinner cannot consume fish again
+PASS Basket stores every remaining fish
+PASS HUD shows inventory, storage and completed dinner
+PASS Repeated basket interaction does not duplicate fish
+PASS World progress persists through both transitions
+PASS Can continue fishing after quest completion
+PASS Mother still preserves surplus after another trip
+PASS Storage accumulates across repeated fishing trips
+PASS Melody advances on native APU
+PASS Catch, interaction and casting effects reach native noise channel
+PASS Sprite count stays within eight per scanline: 4
+PASS PPU incremental writes fit VBlank: 1224 cycles
+PASS Scene transfers upload full CHR, palette and nametable with rendering disabled: 41216
+PASS Reset starts a new session without saved progress
+TOTAL 53 checks passed
