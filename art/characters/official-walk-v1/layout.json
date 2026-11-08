@@ -1,0 +1,671 @@
+{
+  "palette_indices": [
+    [
+      null,
+      15,
+      39,
+      55
+    ],
+    [
+      null,
+      15,
+      18,
+      55
+    ],
+    [
+      null,
+      15,
+      23,
+      15
+    ]
+  ],
+  "order": [
+    "REPOUSO_DIREITO",
+    "PASSO_1_DIREITO",
+    "PASSO_2_DIREITO",
+    "PASSO_3_DIREITO",
+    "PASSO_4_DIREITO",
+    "REPOUSO_FRENTE",
+    "PASSO_1_FRENTE",
+    "PASSO_2_FRENTE",
+    "PASSO_3_FRENTE",
+    "PASSO_4_FRENTE",
+    "REPOUSO_COSTAS",
+    "PASSO_1_COSTAS",
+    "PASSO_2_COSTAS",
+    "PASSO_3_COSTAS",
+    "PASSO_4_COSTAS"
+  ],
+  "poses": {
+    "REPOUSO_DIREITO": {
+      "base_tile": 0,
+      "ppu_address": 4096,
+      "metasprite": [
+        {
+          "x": 0,
+          "y": 0,
+          "tile": 0,
+          "palette": 0
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "tile": 1,
+          "palette": 0
+        },
+        {
+          "x": 0,
+          "y": 8,
+          "tile": 2,
+          "palette": 1
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "tile": 3,
+          "palette": 1
+        },
+        {
+          "x": 0,
+          "y": 16,
+          "tile": 4,
+          "palette": 2
+        },
+        {
+          "x": 8,
+          "y": 16,
+          "tile": 5,
+          "palette": 2
+        }
+      ]
+    },
+    "PASSO_1_DIREITO": {
+      "base_tile": 6,
+      "ppu_address": 4192,
+      "metasprite": [
+        {
+          "x": 0,
+          "y": 0,
+          "tile": 0,
+          "palette": 0
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "tile": 1,
+          "palette": 0
+        },
+        {
+          "x": 0,
+          "y": 8,
+          "tile": 2,
+          "palette": 1
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "tile": 3,
+          "palette": 1
+        },
+        {
+          "x": 0,
+          "y": 16,
+          "tile": 4,
+          "palette": 2
+        },
+        {
+          "x": 8,
+          "y": 16,
+          "tile": 5,
+          "palette": 2
+        }
+      ]
+    },
+    "PASSO_2_DIREITO": {
+      "base_tile": 12,
+      "ppu_address": 4288,
+      "metasprite": [
+        {
+          "x": 0,
+          "y": 0,
+          "tile": 0,
+          "palette": 0
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "tile": 1,
+          "palette": 0
+        },
+        {
+          "x": 0,
+          "y": 8,
+          "tile": 2,
+          "palette": 1
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "tile": 3,
+          "palette": 1
+        },
+        {
+          "x": 0,
+          "y": 16,
+          "tile": 4,
+          "palette": 2
+        },
+        {
+          "x": 8,
+          "y": 16,
+          "tile": 5,
+          "palette": 2
+        }
+      ]
+    },
+    "PASSO_3_DIREITO": {
+      "base_tile": 18,
+      "ppu_address": 4384,
+      "metasprite": [
+        {
+          "x": 0,
+          "y": 0,
+          "tile": 0,
+          "palette": 0
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "tile": 1,
+          "palette": 0
+        },
+        {
+          "x": 0,
+          "y": 8,
+          "tile": 2,
+          "palette": 1
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "tile": 3,
+          "palette": 1
+        },
+        {
+          "x": 0,
+          "y": 16,
+          "tile": 4,
+          "palette": 2
+        },
+        {
+          "x": 8,
+          "y": 16,
+          "tile": 5,
+          "palette": 2
+        }
+      ]
+    },
+    "PASSO_4_DIREITO": {
+      "base_tile": 24,
+      "ppu_address": 4480,
+      "metasprite": [
+        {
+          "x": 0,
+          "y": 0,
+          "tile": 0,
+          "palette": 0
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "tile": 1,
+          "palette": 0
+        },
+        {
+          "x": 0,
+          "y": 8,
+          "tile": 2,
+          "palette": 1
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "tile": 3,
+          "palette": 1
+        },
+        {
+          "x": 0,
+          "y": 16,
+          "tile": 4,
+          "palette": 2
+        },
+        {
+          "x": 8,
+          "y": 16,
+          "tile": 5,
+          "palette": 2
+        }
+      ]
+    },
+    "REPOUSO_FRENTE": {
+      "base_tile": 30,
+      "ppu_address": 4576,
+      "metasprite": [
+        {
+          "x": 0,
+          "y": 0,
+          "tile": 0,
+          "palette": 0
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "tile": 1,
+          "palette": 0
+        },
+        {
+          "x": 0,
+          "y": 8,
+          "tile": 2,
+          "palette": 1
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "tile": 3,
+          "palette": 1
+        },
+        {
+          "x": 0,
+          "y": 16,
+          "tile": 4,
+          "palette": 2
+        },
+        {
+          "x": 8,
+          "y": 16,
+          "tile": 5,
+          "palette": 2
+        }
+      ]
+    },
+    "PASSO_1_FRENTE": {
+      "base_tile": 36,
+      "ppu_address": 4672,
+      "metasprite": [
+        {
+          "x": 0,
+          "y": 0,
+          "tile": 0,
+          "palette": 0
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "tile": 1,
+          "palette": 0
+        },
+        {
+          "x": 0,
+          "y": 8,
+          "tile": 2,
+          "palette": 1
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "tile": 3,
+          "palette": 1
+        },
+        {
+          "x": 0,
+          "y": 16,
+          "tile": 4,
+          "palette": 2
+        },
+        {
+          "x": 8,
+          "y": 16,
+          "tile": 5,
+          "palette": 2
+        }
+      ]
+    },
+    "PASSO_2_FRENTE": {
+      "base_tile": 42,
+      "ppu_address": 4768,
+      "metasprite": [
+        {
+          "x": 0,
+          "y": 0,
+          "tile": 0,
+          "palette": 0
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "tile": 1,
+          "palette": 0
+        },
+        {
+          "x": 0,
+          "y": 8,
+          "tile": 2,
+          "palette": 1
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "tile": 3,
+          "palette": 1
+        },
+        {
+          "x": 0,
+          "y": 16,
+          "tile": 4,
+          "palette": 2
+        },
+        {
+          "x": 8,
+          "y": 16,
+          "tile": 5,
+          "palette": 2
+        }
+      ]
+    },
+    "PASSO_3_FRENTE": {
+      "base_tile": 48,
+      "ppu_address": 4864,
+      "metasprite": [
+        {
+          "x": 0,
+          "y": 0,
+          "tile": 0,
+          "palette": 0
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "tile": 1,
+          "palette": 0
+        },
+        {
+          "x": 0,
+          "y": 8,
+          "tile": 2,
+          "palette": 1
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "tile": 3,
+          "palette": 1
+        },
+        {
+          "x": 0,
+          "y": 16,
+          "tile": 4,
+          "palette": 2
+        },
+        {
+          "x": 8,
+          "y": 16,
+          "tile": 5,
+          "palette": 2
+        }
+      ]
+    },
+    "PASSO_4_FRENTE": {
+      "base_tile": 54,
+      "ppu_address": 4960,
+      "metasprite": [
+        {
+          "x": 0,
+          "y": 0,
+          "tile": 0,
+          "palette": 0
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "tile": 1,
+          "palette": 0
+        },
+        {
+          "x": 0,
+          "y": 8,
+          "tile": 2,
+          "palette": 1
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "tile": 3,
+          "palette": 1
+        },
+        {
+          "x": 0,
+          "y": 16,
+          "tile": 4,
+          "palette": 2
+        },
+        {
+          "x": 8,
+          "y": 16,
+          "tile": 5,
+          "palette": 2
+        }
+      ]
+    },
+    "REPOUSO_COSTAS": {
+      "base_tile": 60,
+      "ppu_address": 5056,
+      "metasprite": [
+        {
+          "x": 0,
+          "y": 0,
+          "tile": 0,
+          "palette": 0
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "tile": 1,
+          "palette": 0
+        },
+        {
+          "x": 0,
+          "y": 8,
+          "tile": 2,
+          "palette": 1
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "tile": 3,
+          "palette": 1
+        },
+        {
+          "x": 0,
+          "y": 16,
+          "tile": 4,
+          "palette": 2
+        },
+        {
+          "x": 8,
+          "y": 16,
+          "tile": 5,
+          "palette": 2
+        }
+      ]
+    },
+    "PASSO_1_COSTAS": {
+      "base_tile": 66,
+      "ppu_address": 5152,
+      "metasprite": [
+        {
+          "x": 0,
+          "y": 0,
+          "tile": 0,
+          "palette": 0
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "tile": 1,
+          "palette": 0
+        },
+        {
+          "x": 0,
+          "y": 8,
+          "tile": 2,
+          "palette": 1
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "tile": 3,
+          "palette": 1
+        },
+        {
+          "x": 0,
+          "y": 16,
+          "tile": 4,
+          "palette": 2
+        },
+        {
+          "x": 8,
+          "y": 16,
+          "tile": 5,
+          "palette": 2
+        }
+      ]
+    },
+    "PASSO_2_COSTAS": {
+      "base_tile": 72,
+      "ppu_address": 5248,
+      "metasprite": [
+        {
+          "x": 0,
+          "y": 0,
+          "tile": 0,
+          "palette": 0
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "tile": 1,
+          "palette": 0
+        },
+        {
+          "x": 0,
+          "y": 8,
+          "tile": 2,
+          "palette": 1
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "tile": 3,
+          "palette": 1
+        },
+        {
+          "x": 0,
+          "y": 16,
+          "tile": 4,
+          "palette": 2
+        },
+        {
+          "x": 8,
+          "y": 16,
+          "tile": 5,
+          "palette": 2
+        }
+      ]
+    },
+    "PASSO_3_COSTAS": {
+      "base_tile": 78,
+      "ppu_address": 5344,
+      "metasprite": [
+        {
+          "x": 0,
+          "y": 0,
+          "tile": 0,
+          "palette": 0
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "tile": 1,
+          "palette": 0
+        },
+        {
+          "x": 0,
+          "y": 8,
+          "tile": 2,
+          "palette": 1
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "tile": 3,
+          "palette": 1
+        },
+        {
+          "x": 0,
+          "y": 16,
+          "tile": 4,
+          "palette": 2
+        },
+        {
+          "x": 8,
+          "y": 16,
+          "tile": 5,
+          "palette": 2
+        }
+      ]
+    },
+    "PASSO_4_COSTAS": {
+      "base_tile": 84,
+      "ppu_address": 5440,
+      "metasprite": [
+        {
+          "x": 0,
+          "y": 0,
+          "tile": 0,
+          "palette": 0
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "tile": 1,
+          "palette": 0
+        },
+        {
+          "x": 0,
+          "y": 8,
+          "tile": 2,
+          "palette": 1
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "tile": 3,
+          "palette": 1
+        },
+        {
+          "x": 0,
+          "y": 16,
+          "tile": 4,
+          "palette": 2
+        },
+        {
+          "x": 8,
+          "y": 16,
+          "tile": 5,
+          "palette": 2
+        }
+      ]
+    }
+  }
+}

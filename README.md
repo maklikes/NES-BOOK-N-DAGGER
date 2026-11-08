@@ -1,5 +1,19 @@
 # A Adaga e o Livro
 
+## Laboratório atual — matrizes externas oficiais
+
+**[Baixar laboratorio-caminhada-externa-v0.1.nes](downloads/laboratorio-caminhada-externa-v0.1.nes)** — no GitHub, use **Download raw file**.
+Integra as 15 poses fornecidas pelo usuário, com as duas correções expressas
+nas costas. Movimento nos quatro sentidos; A troca fundo, B câmera lenta,
+Start pausa, Select centraliza. Sem áudio.
+
+[Controles e validação](game/walk-lab/README.md) ·
+[Matrizes e prancha exportada](art/characters/official-walk-v1/README.md).
+
+A caminhada lateral criada aqui foi rejeitada pelo usuário. Os laboratórios
+anteriores abaixo ficam como histórico técnico; a fonte atual de animação é
+`art/characters/official-walk-v1/matrizes.json`.
+
 ## Laboratório — caminhada oficial v0.1
 
 **[Baixar a ROM](downloads/laboratorio-caminhada-oficial-v0.1.nes)** — abra no GitHub e clique em **Download raw file**.

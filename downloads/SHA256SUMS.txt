@@ -1,3 +1,4 @@
+a058ec4dde00f6c81357b8949c108fac4f6923c763fe39da1194311159c16b40  laboratorio-caminhada-externa-v0.1.nes
 4c2f19c4b635328c505419d898a889d5f458c582c0b2130f7e92f5a9a840db93  laboratorio-caminhada-oficial-v0.1.nes
 f34539ba91d4d1206c2faa61481da36cada2af1de8fdece2ff6e7257510045ef  aventureiro-caminhada-v0.1.nes
 e2f506dd320927ecc8962c2e4ce8994a8fed1751dc4ee855eb41d5953aac93d1  espelho-v0.1.nes

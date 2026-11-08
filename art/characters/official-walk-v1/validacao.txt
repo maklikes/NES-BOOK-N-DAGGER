@@ -1,0 +1,16 @@
+REPOUSO_DIREITO: exact 16x24 / 96 bytes CHR; exact decoded RGBA; 6 sprites; 2 per scanline; legal subpalettes; Y23 transparent
+PASSO_1_DIREITO: exact 16x24 / 96 bytes CHR; exact decoded RGBA; 6 sprites; 2 per scanline; legal subpalettes; Y23 transparent
+PASSO_2_DIREITO: exact 16x24 / 96 bytes CHR; exact decoded RGBA; 6 sprites; 2 per scanline; legal subpalettes; Y23 transparent
+PASSO_3_DIREITO: exact 16x24 / 96 bytes CHR; exact decoded RGBA; 6 sprites; 2 per scanline; legal subpalettes; Y23 transparent
+PASSO_4_DIREITO: exact 16x24 / 96 bytes CHR; exact decoded RGBA; 6 sprites; 2 per scanline; legal subpalettes; Y23 transparent
+REPOUSO_FRENTE: exact 16x24 / 96 bytes CHR; exact decoded RGBA; 6 sprites; 2 per scanline; legal subpalettes; Y23 transparent
+PASSO_1_FRENTE: exact 16x24 / 96 bytes CHR; exact decoded RGBA; 6 sprites; 2 per scanline; legal subpalettes; Y23 transparent
+PASSO_2_FRENTE: exact 16x24 / 96 bytes CHR; exact decoded RGBA; 6 sprites; 2 per scanline; legal subpalettes; Y23 transparent
+PASSO_3_FRENTE: exact 16x24 / 96 bytes CHR; exact decoded RGBA; 6 sprites; 2 per scanline; legal subpalettes; Y23 transparent
+PASSO_4_FRENTE: exact 16x24 / 96 bytes CHR; exact decoded RGBA; 6 sprites; 2 per scanline; legal subpalettes; Y23 transparent
+REPOUSO_COSTAS: exact 16x24 / 96 bytes CHR; exact decoded RGBA; 6 sprites; 2 per scanline; legal subpalettes; Y23 transparent
+PASSO_1_COSTAS: exact 16x24 / 96 bytes CHR; exact decoded RGBA; 6 sprites; 2 per scanline; legal subpalettes; Y23 transparent
+PASSO_2_COSTAS: exact 16x24 / 96 bytes CHR; exact decoded RGBA; 6 sprites; 2 per scanline; legal subpalettes; Y23 transparent
+PASSO_3_COSTAS: exact 16x24 / 96 bytes CHR; exact decoded RGBA; 6 sprites; 2 per scanline; legal subpalettes; Y23 transparent
+PASSO_4_COSTAS: exact 16x24 / 96 bytes CHR; exact decoded RGBA; 6 sprites; 2 per scanline; legal subpalettes; Y23 transparent
+All three idle poses equal immutable official matrices.
