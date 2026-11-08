@@ -1,5 +1,17 @@
 # A Adaga e o Livro
 
+## Aventureiro — teste de caminhada v0.1
+
+**[Baixar a ROM](downloads/aventureiro-caminhada-v0.1.nes)** — abra o arquivo e clique em **Download raw file**.
+Laboratório independente com o personagem da última prancha de 16×24 pixels,
+quatro sentidos e quatro fases de caminhada. Direcional move; A alterna fundo;
+B alterna câmera lenta; Start pausa; Select centraliza. Sem áudio.
+
+![Prévia real da caminhada, recortada e desacelerada](game/hero-lab/caminhada.gif)
+
+[Controles, critérios de avaliação e validação técnica](game/hero-lab/README.md).
+As ROMs de pescaria continuam disponíveis abaixo para comparação.
+
 ## Estudo de arte — pescaria v0.2
 
 **ROM para comparar:** [`downloads/primeira-pescaria-arte-v0.2.nes`](downloads/primeira-pescaria-arte-v0.2.nes).

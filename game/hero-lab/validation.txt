@@ -1,0 +1,26 @@
+PASS Initial position and front idle
+PASS Idle CHR exactly equals static frente
+PASS Idle CHR exactly equals static costas
+PASS Idle CHR exactly equals static perfil
+PASS Base and overlay palettes match static model
+PASS Right movement, profile and normal speed x=152 expected=152 facing=2 buttons=0
+PASS Four distinct right walk phases
+PASS Release returns to exact profile idle
+PASS Left flip swaps tile columns
+PASS North/back pose
+PASS South/front pose
+PASS Opposite directions cancel
+PASS A held switches background once
+PASS Start hold pauses once with visible P
+PASS Select centers during pause
+PASS Unpause
+PASS B enables slow mode
+PASS Slow mode halves movement and animation together
+PASS Right limit stops at idle
+PASS Left limit
+PASS Top limit
+PASS Bottom limit
+PASS Metasprite needs at most four sprites per scanline
+PASS PPU writes fit VBlank: 1626 cycles
+PASS Reset clears test options
+TOTAL 25 checks passed
