@@ -1,3 +1,4 @@
+4c2f19c4b635328c505419d898a889d5f458c582c0b2130f7e92f5a9a840db93  laboratorio-caminhada-oficial-v0.1.nes
 f34539ba91d4d1206c2faa61481da36cada2af1de8fdece2ff6e7257510045ef  aventureiro-caminhada-v0.1.nes
 e2f506dd320927ecc8962c2e4ce8994a8fed1751dc4ee855eb41d5953aac93d1  espelho-v0.1.nes
 9fc2fc2085c6cd91bb72b341b66dcff9a436fb77f5cca86a57e78623544e4c42  primeira-pescaria-arte-v0.2.nes

@@ -1,0 +1,31 @@
+PASS Initial right-facing official idle at center
+PASS CHR identical to approved repouso
+PASS CHR identical to approved passo-1
+PASS CHR identical to approved passo-2
+PASS CHR identical to approved passo-3
+PASS CHR identical to approved passo-4
+PASS Official head subpalette
+PASS Official torso subpalette
+PASS Official leg subpalette
+PASS Six OAM entries use exact assigned subpalettes
+PASS All unused OAM entries hidden
+PASS Right advances exactly one pixel per frame
+PASS All four approved walk phases reached
+PASS Release restores exact idle and resets cadence
+PASS Left movement with horizontal flip and swapped tile columns
+PASS Vertical buttons do not move or animate
+PASS Opposite directions cancel
+PASS A held changes floor once
+PASS Pause freezes active walk pose and position
+PASS Pause indicator P visible
+PASS Select centers and restores idle during pause
+PASS Start unpauses
+PASS B enables slow mode with L indicator
+PASS Slow mode halves movement; release returns to idle
+PASS Each normal-speed walk phase lasts eight frames
+PASS Right boundary stops at idle
+PASS Left boundary stops at idle
+PASS At most two hardware sprites per scanline
+PASS PPU writes complete within VBlank: 1457 cycles
+PASS Reset clears options and restores official idle
+TOTAL 30 checks passed

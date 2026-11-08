@@ -1,5 +1,16 @@
 # A Adaga e o Livro
 
+## Laboratório — caminhada oficial v0.1
+
+**[Baixar a ROM](downloads/laboratorio-caminhada-oficial-v0.1.nes)** — abra no GitHub e clique em **Download raw file**.
+Novo teste para EverDrive / CRT: repouso oficial e caminhada lateral v2 aprovados,
+seis sprites sem overlays. Esquerda/direita movem, A alterna o fundo,
+B alterna câmera lenta, Start congela a pose e Select centraliza. Sem áudio.
+
+[Controles e roteiro de avaliação](game/side-walk-lab/README.md) ·
+[Resultado dos 30 testes no emulador](game/side-walk-lab/validation.txt).
+As ROMs anteriores permanecem disponíveis para comparação.
+
 ## Personagem principal — especificação oficial
 
 A referência oficial imutável está em
@@ -7,7 +18,8 @@ A referência oficial imutável está em
 matrizes exatas de 16×24 pixels, seis sprites 8×8 sem overlays e três subpaletas.
 [Prancha oficial](art/characters/main-official-v1/prancha-oficial.png) ·
 [Composição e arquivos técnicos](art/characters/main-official-v1/README.md).
-As ROMs e os estudos abaixo são anteriores à integração desse modelo.
+O laboratório acima integra o perfil oficial e a caminhada lateral aprovada.
+As demais ROMs e os estudos abaixo são históricos anteriores à integração.
 
 ## Aventureiro — teste de caminhada v0.1
 
