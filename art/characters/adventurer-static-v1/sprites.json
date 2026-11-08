@@ -1,0 +1,263 @@
+{
+  "size": [
+    16,
+    24
+  ],
+  "palette_indices": [
+    [
+      null,
+      7,
+      39,
+      55
+    ],
+    [
+      null,
+      7,
+      17,
+      39
+    ],
+    [
+      null,
+      7,
+      23,
+      39
+    ]
+  ],
+  "palette_preview": "Wavebeam",
+  "poses": {
+    "frente": {
+      "pixels": [
+        "....DD..........",
+        "...DGDDDDDDD....",
+        "..DDGGGGGGGDD...",
+        ".DDGGGGGGGGGGD..",
+        ".DGGGGGGGGGGGDD.",
+        "..DGGGDGGGDDD...",
+        "..DDSSSSSSDD....",
+        "..DSSSDSSDSSD...",
+        "...DSSSSSSD.....",
+        "...DDSSSSDD.....",
+        "..DBBSSSSBBBD...",
+        "..DBBBBGGBBBD...",
+        "..DSBBBGGBBSD...",
+        "..DSBBGGBBBSD...",
+        "...DBGBBBBBD....",
+        "...DGGDDGGGD....",
+        "...DMMDDMMGD....",
+        "...DMMDDMMMD....",
+        "....DMDDMD......",
+        "....DMDDMD......",
+        "...DMMDDMMD.....",
+        "...DDDD.DDDD....",
+        "................",
+        "................"
+      ],
+      "metasprite": [
+        {
+          "x": 0,
+          "y": 0,
+          "tile": 0,
+          "palette": 0
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "tile": 1,
+          "palette": 0
+        },
+        {
+          "x": 0,
+          "y": 8,
+          "tile": 2,
+          "palette": 1
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "tile": 3,
+          "palette": 1
+        },
+        {
+          "x": 0,
+          "y": 16,
+          "tile": 4,
+          "palette": 2
+        },
+        {
+          "x": 8,
+          "y": 16,
+          "tile": 5,
+          "palette": 2
+        },
+        {
+          "x": 0,
+          "y": 8,
+          "tile": 6,
+          "palette": 0
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "tile": 7,
+          "palette": 0
+        }
+      ]
+    },
+    "costas": {
+      "pixels": [
+        "....DD..........",
+        "...DGDDDDDDD....",
+        "..DDGGGGGGGDD...",
+        ".DDGGGGGGGGGGD..",
+        ".DGGGGGGGGGGGDD.",
+        "..DGGGGGGGGGDD..",
+        "..DDGGGGGGGDD...",
+        "...DGGGGGGGD....",
+        "....DDGGGDD.....",
+        ".....DSSSD......",
+        "..DBBSSSSBBBD...",
+        "..DBGBBBBBBBD...",
+        "..DSBGGBBBBSD...",
+        "..DSBBGGBBBSD...",
+        "...DBBBGGBBD....",
+        "...DGGDDGGGD....",
+        "...DMMDDMMGD....",
+        "...DMMDDMMMD....",
+        "....DMDDMD......",
+        "....DMDDMD......",
+        "...DMMDDMMD.....",
+        "...DDDD.DDDD....",
+        "................",
+        "................"
+      ],
+      "metasprite": [
+        {
+          "x": 0,
+          "y": 0,
+          "tile": 0,
+          "palette": 0
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "tile": 1,
+          "palette": 0
+        },
+        {
+          "x": 0,
+          "y": 8,
+          "tile": 2,
+          "palette": 1
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "tile": 3,
+          "palette": 1
+        },
+        {
+          "x": 0,
+          "y": 16,
+          "tile": 4,
+          "palette": 2
+        },
+        {
+          "x": 8,
+          "y": 16,
+          "tile": 5,
+          "palette": 2
+        },
+        {
+          "x": 0,
+          "y": 8,
+          "tile": 6,
+          "palette": 0
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "tile": 7,
+          "palette": 0
+        }
+      ]
+    },
+    "perfil": {
+      "pixels": [
+        ".....DD.........",
+        "....DGDDDDD.....",
+        "...DDGGGGGDD....",
+        "..DDGGGGGGGDD...",
+        "..DGGGGGGGGGD...",
+        "...DGGGGDGGDD...",
+        "....DGGDSSSD....",
+        "....DGGDSDSSD...",
+        ".....DDSSSSSD...",
+        "......DSSSD.....",
+        ".....DBSSBD.....",
+        ".....DBBGBBD....",
+        ".....DBBGGBBD...",
+        ".....DBBSSBBD...",
+        ".....DBBSSBGD...",
+        ".....DBBBBGGD...",
+        ".....DGGDDGDD...",
+        ".....DMMDGMD....",
+        "......DMDDMD....",
+        "......DMDDMD....",
+        ".....DMMMMMD....",
+        ".....DDDDDDD....",
+        "................",
+        "................"
+      ],
+      "metasprite": [
+        {
+          "x": 0,
+          "y": 0,
+          "tile": 0,
+          "palette": 0
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "tile": 1,
+          "palette": 0
+        },
+        {
+          "x": 0,
+          "y": 8,
+          "tile": 2,
+          "palette": 1
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "tile": 3,
+          "palette": 1
+        },
+        {
+          "x": 0,
+          "y": 16,
+          "tile": 4,
+          "palette": 2
+        },
+        {
+          "x": 8,
+          "y": 16,
+          "tile": 5,
+          "palette": 2
+        },
+        {
+          "x": 0,
+          "y": 8,
+          "tile": 6,
+          "palette": 0
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "tile": 7,
+          "palette": 0
+        }
+      ]
+    }
+  }
+}
