@@ -1,5 +1,14 @@
 # A Adaga e o Livro
 
+## Personagem principal — especificação oficial
+
+A referência oficial imutável está em
+[`art/characters/main-official-v1/spec.py`](art/characters/main-official-v1/spec.py):
+matrizes exatas de 16×24 pixels, seis sprites 8×8 sem overlays e três subpaletas.
+[Prancha oficial](art/characters/main-official-v1/prancha-oficial.png) ·
+[Composição e arquivos técnicos](art/characters/main-official-v1/README.md).
+As ROMs e os estudos abaixo são anteriores à integração desse modelo.
+
 ## Aventureiro — teste de caminhada v0.1
 
 **[Baixar a ROM](downloads/aventureiro-caminhada-v0.1.nes)** — abra o arquivo e clique em **Download raw file**.

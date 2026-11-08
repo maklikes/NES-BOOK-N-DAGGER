@@ -1,0 +1,4 @@
+frente: exact 16x24; 6 sprites; 96 CHR bytes; 2 sprites/scanline; no overlays; exact decoded RGBA; Y0/Y7/Y15/Y22/Y23 verified
+perfil: exact 16x24; 6 sprites; 96 CHR bytes; 2 sprites/scanline; no overlays; exact decoded RGBA; Y0/Y7/Y15/Y22/Y23 verified
+costas: exact 16x24; 6 sprites; 96 CHR bytes; 2 sprites/scanline; no overlays; exact decoded RGBA; Y0/Y7/Y15/Y22/Y23 verified
+Static export only; no ROM or animation modified.
