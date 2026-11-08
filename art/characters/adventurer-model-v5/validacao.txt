@@ -1,0 +1,4 @@
+frente: 16x24 RGBA, 10 sprites 8x8, CHR round-trip exact, max 4 sprites per scanline
+costas: 16x24 RGBA, 10 sprites 8x8, CHR round-trip exact, max 4 sprites per scanline
+perfil: 16x24 RGBA, 10 sprites 8x8, CHR round-trip exact, max 4 sprites per scanline
+No ROM, emulator execution, animation or palette overlay integration was tested.
