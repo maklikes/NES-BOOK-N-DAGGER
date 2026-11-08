@@ -1,0 +1,6 @@
+repouso: 16x24; 6 sprites; 2 sprites/scanline; no overlays; exact CHR round-trip; head/hem unchanged
+passo-1: 16x24; 6 sprites; 2 sprites/scanline; no overlays; exact CHR round-trip; head/hem unchanged
+passo-2: 16x24; 6 sprites; 2 sprites/scanline; no overlays; exact CHR round-trip; head/hem unchanged
+passo-3: 16x24; 6 sprites; 2 sprites/scanline; no overlays; exact CHR round-trip; head/hem unchanged
+passo-4: 16x24; 6 sprites; 2 sprites/scanline; no overlays; exact CHR round-trip; head/hem unchanged
+Official idle PNG and CHR identical; no ROM or execution test.
