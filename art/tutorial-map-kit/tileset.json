@@ -1,0 +1,53 @@
+{
+  "tile_size": [
+    16,
+    16
+  ],
+  "atlas_size": [
+    80,
+    16
+  ],
+  "columns": 5,
+  "rows": 1,
+  "recommended_map_size": [
+    256,
+    192
+  ],
+  "tiles": [
+    {
+      "column": 0,
+      "name": "grama",
+      "source": "game/tutorial-garden/imported/piso.png",
+      "source_sha256": "2780bf8955acc4319b8df4c5ac68cc5130991185d682b0fa5e3289faed5ca894",
+      "blocked": false
+    },
+    {
+      "column": 1,
+      "name": "arbusto",
+      "source": "game/tutorial-garden/imported/arbusto.png",
+      "source_sha256": "77df7e1d3040234aba9b3fd91e5ce5af5fca405514670e1ec157737844ef9ea8",
+      "blocked": true
+    },
+    {
+      "column": 2,
+      "name": "borda-esquerda",
+      "source": "art/tutorial-path/borda-esquerda.png",
+      "source_sha256": "9dfd434d5a358de95a2e6c110e8a3f19f87a3551fd091e1e6cb21cd0b4d9f187",
+      "blocked": false
+    },
+    {
+      "column": 3,
+      "name": "centro-caminho",
+      "source": "art/tutorial-path/centro.png",
+      "source_sha256": "894ba83a936b1eafc136d8f025e0b48b3ae31e738769e3520c7094bba88a3e95",
+      "blocked": false
+    },
+    {
+      "column": 4,
+      "name": "borda-direita",
+      "source": "art/tutorial-path/borda-direita.png",
+      "source_sha256": "c0819e46ac37598751023294769f932cd23caf610953443823413ae133cd39f0",
+      "blocked": false
+    }
+  ]
+}
