@@ -1,0 +1,82 @@
+{
+  "path_palette_ppu": [
+    15,
+    26,
+    23,
+    39
+  ],
+  "path_palette_rgba": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      168,
+      0,
+      255
+    ],
+    [
+      139,
+      68,
+      0,
+      255
+    ],
+    [
+      184,
+      112,
+      24,
+      255
+    ]
+  ],
+  "pieces": {
+    "borda-esquerda": {
+      "canvas": [
+        16,
+        16
+      ],
+      "rgba_counts": {
+        "(0, 168, 0, 255)": 125,
+        "(139, 68, 0, 255)": 115,
+        "(184, 112, 24, 255)": 16
+      },
+      "source_sha256": "b0e6a9aac23ed5584b6c539059d24e90968c3707d148d9be1664e32bb5b3118e",
+      "opaque": true,
+      "chr_bytes": 64,
+      "decoded_pixels_identical": true
+    },
+    "centro": {
+      "canvas": [
+        16,
+        16
+      ],
+      "rgba_counts": {
+        "(139, 68, 0, 255)": 231,
+        "(0, 168, 0, 255)": 4,
+        "(184, 112, 24, 255)": 21
+      },
+      "source_sha256": "799285f9ac08a8fb24c61e8ea02b05edaf41315afee11a486f7172d285591c71",
+      "opaque": true,
+      "chr_bytes": 64,
+      "decoded_pixels_identical": true
+    },
+    "borda-direita": {
+      "canvas": [
+        16,
+        16
+      ],
+      "rgba_counts": {
+        "(139, 68, 0, 255)": 122,
+        "(0, 168, 0, 255)": 123,
+        "(184, 112, 24, 255)": 11
+      },
+      "source_sha256": "e194cab81afaeba19707cbdb415a0c03e9d3b981e393ac1d8a539136556db25c",
+      "opaque": true,
+      "chr_bytes": 64,
+      "decoded_pixels_identical": true
+    }
+  },
+  "rom_modified": false
+}

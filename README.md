@@ -1,5 +1,11 @@
 # A Adaga e o Livro
 
+## Estudo de caminho — peças desenhadas pelo usuário
+
+[Ver a montagem das três peças](art/tutorial-path/prancha-caminho.png) ·
+[Fontes Pixelorama e conferência técnica](art/tutorial-path/README.md).
+Prévia do caminho junto à grama e ao personagem; ainda não integrado à ROM.
+
 ## Exercício Pixelorama — seus desenhos numa ROM
 
 **[Baixar exercicio-pixelorama-jardim-v0.1.nes](downloads/exercicio-pixelorama-jardim-v0.1.nes)** — no GitHub, use **Download raw file**.
