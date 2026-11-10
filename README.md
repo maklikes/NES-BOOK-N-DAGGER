@@ -1,5 +1,17 @@
 # A Adaga e o Livro
 
+## Exercício Pixelorama — seus desenhos numa ROM
+
+**[Baixar exercicio-pixelorama-jardim-v0.1.nes](downloads/exercicio-pixelorama-jardim-v0.1.nes)** — no GitHub, use **Download raw file**.
+Personagem 16×16, piso e arbusto desenhados pelo usuário no Pixelorama.
+Direcional move; Start pausa; Select reinicia a posição; B reduz a velocidade.
+A animação é frontal em todas as direções. Os arbustos bloqueiam a passagem.
+
+![Captura real do exercício](game/tutorial-garden/cenario.png)
+
+[Controles, fontes Pixelorama e validação](game/tutorial-garden/README.md).
+Este é um exercício independente; não substitui os recursos do jogo principal.
+
 ## Laboratório atual — matrizes externas oficiais
 
 **[Baixar laboratorio-caminhada-externa-v0.1.nes](downloads/laboratorio-caminhada-externa-v0.1.nes)** — no GitHub, use **Download raw file**.

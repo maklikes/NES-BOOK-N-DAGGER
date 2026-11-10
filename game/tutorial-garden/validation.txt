@@ -1,0 +1,35 @@
+PASS Start position and user idle frame
+PASS Both CHR tables exactly match imported user artwork and font
+PASS Three exact background color indices
+PASS Single exact character subpalette
+PASS Only four unflipped OAM sprites, remaining entries hidden
+PASS Field faithfully repeats floor and bush metatiles
+PASS Right: one pixel per NTSC frame
+PASS Left uses the same front-facing artwork
+PASS Up reaches top interior boundary
+PASS Down returns to starting row
+PASS Diagonal moves both axes
+PASS Opposite directions cancel and reset idle
+PASS All four user poses last ten NTSC frames: 6 FPS
+PASS Release restores original frame and resets timer
+PASS Bush group blocks approach from above
+PASS Bush group blocks approach from below
+PASS Bush group blocks approach from right
+PASS Bush group blocks approach from left
+PASS Character slides along bush when other axis is free
+PASS Left border blocks movement
+PASS Top border blocks movement
+PASS Right border blocks movement
+PASS Bottom border blocks movement
+PASS Bottom corridor traversable
+PASS Pause freezes active pose and position
+PASS Pause indicator visible
+PASS Select resets spawn and idle during pause
+PASS Unpause
+PASS B enables slow mode and indicator
+PASS Slow mode halves motion and returns to idle
+PASS Grass palette stays fixed
+PASS At most two hardware sprites per scanline
+PASS PPU writes complete early in VBlank: 588 cycles
+PASS Reset restores the exercise initial state
+TOTAL 34 checks passed

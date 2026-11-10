@@ -17,3 +17,9 @@ aqui foram rejeitadas pelo usuário e são apenas histórico, apesar de descriç
 antigas de aprovação. Os quadros externos incluem oscilação de um pixel;
 não aplicar a regra antiga de cabeça fixa a eles. Os repousos permanecem
 idênticos à especificação estática. A integração atual está em game/walk-lab.
+
+O exercício didático independente em `game/tutorial-garden` usa o personagem
+16×16 e os cenários desenhados pelo usuário nos arquivos Pixelorama em sua
+pasta `source`. Não substituir esses desenhos pelo personagem oficial 16×24,
+nem redesenhar ou quantizar seus pixels sem solicitação. A animação permanece
+frontal em qualquer direção. Este exercício não redefine a arte do jogo principal.
